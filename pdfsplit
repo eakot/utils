@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# https://unix.stackexchange.com/a/179398
+
+pdforiginal=$1
+
+mutool poster -x 2 $pdforiginal $2
